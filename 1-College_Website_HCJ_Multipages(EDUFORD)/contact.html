@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EduFord - University Website Design</title>
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/14b8542e66.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!----------------- HEADER SECTION ---------------->
+
+    <section class="sub-header">
+      <nav>
+        <a href="index.html"><img src="images/logo.png" alt="logo" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+          <ul>
+            <li class="links"><a href="index.html">HOME</a></li>
+            <li class="links"><a href="about.html">ABOUT</a></li>
+            <li class="links"><a href="courses.html">COURSES</a></li>
+            <li class="links"><a href="blog.html">BLOG</a></li>
+            <li class="links"><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+        <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <h1>Any Query ? Contact Us</h1>
+    </section>
+
+    <!----------------- CONTACT US SECTION ---------------->
+
+    <section class="location">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d176035.83924223774!2d79.97038975875314!3d12.851075478487953!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5265ea4f7d3361%3A0x6e61a70b6863d433!2sChennai%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1716299154038!5m2!1sen!2sin"
+        width="600"
+        height="450"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+
+    <section class="contact-us">
+      <div class="row">
+        <div class="contact-col">
+          <div>
+            <i class="fa-solid fa-home"></i>
+            <span
+              ><h5>ABC Road , XYZ Building</h5>
+              <p>Chennai , India , IN</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-phone"></i>
+            <span
+              ><h5>+91 0000000000</h5>
+              <p>Januarary to December , 24 x 7</p>
+            </span>
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <span
+              ><h5>random@random.com</h5>
+              <p>Dont email ur query</p>
+            </span>
+          </div>
+        </div>
+        <div class="contact-col">
+          <form action="">
+            <input type="text" placeholder="Enter your name" required>
+            <input type="email" placeholder="Enter your email" required>
+            <input type="subject" placeholder="Enter your subject" required>
+            <textarea rows="8" placeholder="Message"></textarea>
+            <button class="hero-btn red-btn">Send Merssage</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!----------------- FOOTER SECTION ---------------->
+    <section class="footer">
+      <h4>About us</h4>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas,
+        minima reiciendis <br />
+        voluptate error modi maxime! Lorem ipsum dolor sit amet.
+      </p>
+      <div class="icons">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
+
+      <p>Thank You <i class="fa-regular fa-heart"></i></p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
